@@ -1,88 +1,90 @@
-    html {
-    background: linear-gradient(180deg, #72A7F8 0%, rgba(87, 129, 210, 0.486859) 0.01%, rgba(162, 198, 253, 0.486859) 59.9%, rgba(17, 55, 255, 0) 99.47%, rgba(184, 212, 255, 0) 99.48%);
-}
-
-.c {
-    font-size: 115px;
-    margin: 10px;
-    text-transform: uppercase;
-    font-family: Roboto;
-    color: #02000E;
-}
-
-.text {
-    font-family: Roboto;
-    text-transform: uppercase;
-}
-
-nav ul li {
-    text-transform: uppercase;
-    flex-direction: row;
-    display: inline;
-    padding: 80px 80px 80px;
-    justify-content: space-between;
-}
-
-.container {
-    font-size: 18px;
-    justify-content: space-evenly;
-    font-family: Roboto;
-}
-
-th {
-    text-transform: uppercase;
-    text-align: left;
-}
-
-.headline {
-    background-color: linear-gradient #0416f9;
-    border: 2px solid navy;
-    margin: 0px;
-}
-
-footer {
-    text-align: left;
-    font-size: 14px;
-    border: 2px solid navy;
-    background-color: lightblue;
-}
-
-h4 {
-    font-size: 20px;
-    color: black;
-    text-transform: uppercase;
-}
-
-nav ul li a:hover {
-    color: blueviolet;
-    background-color: transparent;
-}
-
-#new {
-    font-family: Roboto;
-    font-size: 18px;
-}
-
-h2 {
-    text-transform: uppercase;
-    text-align: center;
-    color: brown;
-    margin-top: 40px;
-    text-decoration: underline;
-}
-
-h3 {
-    text-decoration-line: underline;
-    text-transform: uppercase;
-}
-
-.kati {
-    display: flex;
-    justify-content: space-between;
-    font-size: 16px;
-}
-
-a:link {
-    color: green;
-    background-color: transparent;
-    text-decoration: none;
+        html {
+            background: linear-gradient(180deg, #72A7F8 0%, rgba(87, 129, 210, 0.486859) 0.01%, rgba(162, 198, 253, 0.486859) 59.9%, rgba(17, 55, 255, 0) 99.47%, rgba(184, 212, 255, 0) 99.48%);
+        }
+        
+        .c {
+            font-size: 115px;
+            margin: 10px;
+            text-transform: uppercase;
+            font-family: Roboto;
+            color: #02000E;
+        }
+        
+        .text {
+            font-family: Roboto;
+            text-transform: uppercase;
+        }
+        
+        nav ul li {
+            text-transform: uppercase;
+            flex-direction: row;
+            display: inline;
+            padding: 80px 80px 80px;
+            justify-content: space-between;
+        }
+        
+        .container {
+            font-size: 18px;
+            justify-content: space-evenly;
+            font-family: Roboto;
+        }
+        
+        th {
+            text-transform: uppercase;
+            text-align: left;
+        }
+        
+        .headline {
+            background-color: linear-gradient #0416f9;
+            border: 2px solid navy;
+            margin: 0px;
+        }
+        
+        footer {
+            text-align: left;
+            font-size: 14px;
+            border: 2px solid navy;
+            background-color: lightblue;
+        }
+        
+        h4 {
+            font-size: 20px;
+            color: black;
+            text-transform: uppercase;
+        }
+        
+        nav ul li a:hover {
+            color: blueviolet;
+            background-color: transparent;
+        }
+        
+        #new {
+            font-family: Roboto;
+            font-size: 18px;
+        }
+        
+        h2 {
+            text-transform: uppercase;
+            text-align: center;
+            color: brown;
+            margin-top: 40px;
+            text-decoration: underline;
+        }
+        
+        h3 {
+            text-decoration-line: underline;
+            text-transform: uppercase;
+        }
+        
+        .kati {
+            display: flex;
+            justify-content: space-between;
+            font-size: 16px;
+        }
+        
+        form {
+            margin: 0px;
+            padding: 0px;
+            font-family: sans-serif;
+            background: url("https://lh3.googleusercontent.com/proxy/hdZkveGj1r63ZaQ1srSYZtgAU2oRdfdOvs4vGF8g-4ybqhXfXZ2xIt3O4NfUNijZr6WM_PFtLo43QVTUQzuBK7EdY81jmGpM1VyNAUYbxpHcu9Yw-LuKHZ9Td7UU9k29N1uxsxV-baL6jVMB0u_n6UMEZ6BAOd3FK1lT");
+        }
