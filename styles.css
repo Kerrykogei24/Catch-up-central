@@ -1,92 +1,136 @@
-        html {
-            background: linear-gradient(180deg, #72A7F8 0%, rgba(87, 129, 210, 0.486859) 0.01%, rgba(162, 198, 253, 0.486859) 59.9%, rgba(17, 55, 255, 0) 99.47%, rgba(184, 212, 255, 0) 99.48%);
-        }
-        
-        .c {
-            font-size: 115px;
-            margin: 10px;
-            text-transform: uppercase;
-            font-family: Roboto;
-            color: #02000E;
-        }
-        
-        .text {
-            font-family: Roboto;
-            text-transform: uppercase;
-        }
-        
-        nav ul li {
-            text-transform: uppercase;
-            flex-direction: row;
-            display: inline;
-            padding: 80px 80px 80px;
-            justify-content: space-between;
-        }
-        
-        .container {
-            font-size: 18px;
-            justify-content: space-evenly;
-            font-family: Roboto;
-        }
-        
-        th {
-            text-transform: uppercase;
-            text-align: left;
-        }
-        
-        .headline {
-            background-color: linear-gradient #0416f9;
-            border: 2px solid navy;
-            margin: 0px;
-        }
-        
-        footer {
-            text-align: left;
-            font-size: 14px;
-            border: 2px solid navy;
-            background-color: lightblue;
-        }
-        
-        h4 {
-            font-size: 20px;
-            color: black;
-            text-transform: uppercase;
-        }
-        
-        nav ul li a:hover {
-            color: blueviolet;
-            background-color: transparent;
-        }
-        
-        #new {
-            font-family: Roboto;
-            font-size: 18px;
-        }
-        
-        h2 {
-            text-transform: uppercase;
-            text-align: center;
-            color: brown;
-            margin-top: 40px;
-            text-decoration: underline;
-        }
-        
-        h3 {
-            text-decoration-line: underline;
-            text-transform: uppercase;
-        }
-        
-        .kati {
-            display: flex;
-            justify-content: space-between;
-            font-size: 16px;
-        }
-        
-        form {
-            margin: 0px;
-            padding: 0px;
-            font-family: sans-serif;
-            background: url("https://secure.img1-fg.wfcdn.com/im/87431417/resize-h310-w310%5Ecompr-r85/3431/34316184/bennet-33-x-205-semi-gloss-wallpaper-roll.jpg");
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
+            html {
+                background: linear-gradient(180deg, #72A7F8 0%, rgba(87, 129, 210, 0.486859) 0.01%, rgba(162, 198, 253, 0.486859) 59.9%, rgba(17, 55, 255, 0) 99.47%, rgba(184, 212, 255, 0) 99.48%);
+            }
+            
+            .c {
+                font-size: 115px;
+                margin: 10px;
+                text-transform: uppercase;
+                font-family: Roboto;
+                color: #02000E;
+                border: 2px solid blue;
+            }
+            
+            .catch {
+                background-image: url("https://wallpaperboat.com/wp-content/uploads/2020/04/blue-aesthetic-wallpaper-desktop.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            
+            .text {
+                font-family: Roboto;
+                text-transform: uppercase;
+                color: wheat;
+            }
+            
+            nav ul li {
+                text-transform: uppercase;
+                flex-direction: row;
+                display: inline;
+                padding: 80px 80px 80px;
+                justify-content: space-between;
+            }
+            
+            .container {
+                font-size: 18px;
+                justify-content: space-evenly;
+                font-family: Roboto;
+            }
+            
+            th {
+                text-transform: uppercase;
+                text-align: left;
+            }
+            
+            .headline {
+                background-color: linear-gradient #0416f9;
+                border: 2px solid navy;
+                margin: 0px;
+                background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRuB2mlDzyuA7GsCkNTOIV6DRecuHdTx8CYXw&usqp=CAU");
+            }
+            
+            footer {
+                text-align: center;
+                font-size: 14px;
+                background-repeat: no-repeat;
+                background-size: cover;
+                border: 2px solid navy;
+                background-image: url("https://wallpaperboat.com/wp-content/uploads/2020/04/blue-aesthetic-wallpaper-desktop.jpg");
+            }
+            
+            h4 {
+                font-size: 20px;
+                color: black;
+                text-transform: uppercase;
+            }
+            
+            nav ul li a:hover {
+                color: blueviolet;
+                background-color: transparent;
+            }
+            
+            #new {
+                font-family: Roboto;
+                font-size: 18px;
+            }
+            
+            h2 {
+                text-transform: uppercase;
+                text-align: center;
+                color: brown;
+                margin-top: 40px;
+                text-decoration: underline;
+            }
+            
+            h3 {
+                text-decoration-line: underline;
+                text-transform: uppercase;
+            }
+            
+            .kati {
+                display: flex;
+                justify-content: space-between;
+                font-size: 16px;
+            }
+            
+            form {
+                margin: 0px;
+                padding: 0px;
+                font-family: sans-serif;
+                background: url("https://sf.co.ua/13/04/wallpaper-2722920.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            
+            .fa {
+                padding: 20px;
+                font-size: 40px;
+                width: 50px;
+                text-align: center;
+                text-decoration: none;
+                margin: 5px 2px;
+            }
+            
+            .fa-twitter {
+                background: #55ACEE;
+                color: white;
+            }
+            
+            .fa-google {
+                background: #dd4b39;
+                color: white;
+            }
+            
+            .fa-instagram {
+                background: #3f729b;
+                color: white;
+            }
+            
+            .fa-facebook {
+                color: white;
+                background: #3B5998;
+            }
+            
+            .fa:hover {
+                opacity: 0.7;
+            }
