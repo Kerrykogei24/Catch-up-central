@@ -9,6 +9,11 @@
                 font-family: Roboto;
                 color: #02000E;
                 border: 2px solid blue;
+                text-decoration: none;
+            }
+            
+            .c a {
+                text-decoration: none;
             }
             
             .catch {
@@ -29,6 +34,11 @@
                 display: inline;
                 padding: 80px 80px 80px;
                 justify-content: space-between;
+                text-decoration: none;
+            }
+            
+            nav ul li a {
+                text-decoration: none;
             }
             
             .container {
@@ -133,4 +143,41 @@
             
             .fa:hover {
                 opacity: 0.7;
+            }
+            
+            .sport {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .pizzo {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+            
+            #izo {
+                text-align: center;
+                margin: 0px 400px 0px 400px;
+                font-size: 22px;
+            }
+            
+            #izo h1 {
+                font-size: 18px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                color: indianred;
+            }
+            
+            #bt {
+                text-align: center;
+                font-size: 22px;
+                margin: 0px 400px 0px 400px;
+            }
+            
+            .bt {
+                background-image: url("https://images.all-free-download.com/images/graphiclarge/abstract_background_266991.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
             }
